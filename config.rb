@@ -17,7 +17,7 @@ page '/*.txt', layout: false
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch   = 'master'
-  deploy.remote   = 'git@github-taylorshukerov:taylorshukerov.github.io.git'
+  deploy.remote   = 'git@github-taylorshukerov:taylorshukerov/taylorshukerov.github.io.git'
   deploy.build_before = true
   deploy.commit_message = "Delpoying @ #{Time.now}"
 end
