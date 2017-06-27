@@ -1,7 +1,36 @@
+@import 'reset';
+
+
 header {
-  background-color: #cc99ff;
+  padding: 15px 10px 15px 10px;
+  background-color: rgb(251, 197, 71);;
 }
 
 footer {
-  background-color: #cc99ff;
+  padding: 15px 10px 15px 10px; 
+  background-color: rgb(249, 249, 249);;  
+}
+
+
+.container {
+  margin: 0 auto;
+  padding: 10px;
+  overflow: auto;
+  width: 75%;
+
+  img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    p {
+      padding: 0.5%;
+    }
+
+    img {
+      float: right;
+    }
+  }
 }
