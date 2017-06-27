@@ -22,6 +22,7 @@ activate :deploy do |deploy|
   deploy.commit_message = "Delpoying @ #{Time.now}"
 end
 
+activate :sprockets
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 

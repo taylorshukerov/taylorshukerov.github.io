@@ -15,14 +15,41 @@
   <body>
     <header>
       <div class="container">
-        Taylor Shukerov Website
+        <div class="logo">Website</div>
+        <nav class="menu">
+          <ul>
+            <li class="menu_item">Cool
+              <ul class="sub_menu">
+                <li>link1</li>
+                <li>link2</li>
+                <li>link3</li>
+              </ul>
+            </li>
+            <li class="menu_item">Menu
+              <ul class="sub_menu">
+                <li>link1</li>
+                <li>link2</li>
+                <li>link3</li>
+              </ul>
+            </li>
+            <li class="menu_item">Bro
+              <ul class="sub_menu">
+                <li>link1</li>
+                <li>link2</li>
+                <li>link3</li>
+              </ul>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     
     <%= yield %>
     
     <footer>
-      <p>Taylor Shukerov 2017</p>
+      <div class="container">
+        <p>Taylor Shukerov 2017</p>
+      </div>
     </footer>
   </body>
 </html>
