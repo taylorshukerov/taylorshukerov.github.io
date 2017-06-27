@@ -8,12 +8,15 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Taylor Shukerov" %></title>
     <%= stylesheet_link_tag "site" %>
+    <%= stylesheet_link_tag "normalize" %>
     <%= javascript_include_tag "site" %>
   </head>
 
   <body>
     <header>
-      Taylor Shukerov Website
+      <div class="container">
+        Taylor Shukerov Website
+      </div>
     </header>
     
     <%= yield %>
